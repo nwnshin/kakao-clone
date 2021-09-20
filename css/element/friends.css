@@ -1,0 +1,17 @@
+#animal-display-link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: var(--lightgray);
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+#animal-display-link i {
+    color: var(--spacegray);
+}
+
+#animal-display-link span {
+    margin: 0px 3px;
+}

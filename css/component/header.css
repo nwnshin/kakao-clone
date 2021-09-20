@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.header__icons i {
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}

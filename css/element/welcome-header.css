@@ -1,0 +1,8 @@
+.welcome-header {
+    margin: 0px 10px;
+    padding: 100px 50px;
+    text-align: center;
+}
+.welcome-header__text {
+    margin-top: 70px;
+}

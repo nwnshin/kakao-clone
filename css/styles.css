@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "component/no-mobile.css";
+@import "component/header.css";
+@import "component/nav.css";
+
+/*elements*/
+@import "element/status-bar.css";
+@import "element/welcome-header.css";
+@import "element/login-form.css";
+@import "element/friends.css";
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+h6 {
+    font-weight: 200;
+    font-size: 15px;
+}
+

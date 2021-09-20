@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Animal Talk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>06:50</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-wifi"></i>
+            <span>LTE</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Animal Talk</h1>
+        <h6 class="welcome-header__text">
+            If you have an Account,<br>log in with your email or phone number.
+        </h6>
+    </header>
+    <form id="login-form" method="get" action="friends.html">
+        <input type="text" placeholder="Email or Phone Number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="#">Find Your Account or Password</a>
+    </form>
+    <div id="no-mobile">
+        <div></div>
+        <span>Your Screen is Too Big or Horizontal:(<br>Please use Smaller Screen or Portrait</span>
+    </div>
+</body>
+</html>
