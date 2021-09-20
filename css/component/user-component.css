@@ -1,5 +1,8 @@
+.user-component {
+    justify-content: space-between;
+}
 .user-component,
-.user-component__column {
+.user-component__column:first-child {
     display: flex;
     align-items: center;
 }
