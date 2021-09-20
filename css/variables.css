@@ -1,7 +1,7 @@
 :root {
     --lightgray: rgba(206, 206, 206, 0.4);
     --spacegray: rgba(66, 66, 66, 0.5);
-    --darkgray: rgba(0,0,0,0.7)
+    --darkgray: rgba(0,0,0,0.7);
     --sagegradation: linear-gradient(216deg,#6cbe77,#ECF4B7);
     --horizontal-space:25px;
 }
