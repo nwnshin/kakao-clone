@@ -11,6 +11,7 @@
 }
 .find-icons__icon i {
     font-size: 38px;
+    cursor: pointer;
 }
 .find-icons__icon span {
     margin-top: 15px;

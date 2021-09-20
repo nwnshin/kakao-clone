@@ -19,6 +19,7 @@
     width: 90px;
     height: 90px;
     overflow: hidden;
+    cursor: pointer;
     border-radius: 15px;
 }
 .suggestion__item span {
