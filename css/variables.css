@@ -4,4 +4,5 @@
     --darkgray: rgba(0,0,0,0.7);
     --sagegradation: linear-gradient(216deg,#6cbe77,#ECF4B7);
     --horizontal-space:25px;
+    --basic-border: 1px solid rgba(0, 0, 0, 0.15);
 }
