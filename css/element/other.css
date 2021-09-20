@@ -1,0 +1,28 @@
+.suggestion {
+    margin-top: 30px;
+    border-top: var(--basic-border);
+    padding-top: 8px;
+}
+.suggestion__list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.suggestion__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.suggestion__img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.suggestion__item span {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
