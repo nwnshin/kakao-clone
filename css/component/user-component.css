@@ -23,3 +23,9 @@
     display: flex;
     align-items: center;
 }
+.user-component__img--s {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--lightgray);
+}

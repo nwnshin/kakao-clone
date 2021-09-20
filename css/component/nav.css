@@ -21,19 +21,3 @@
 .nav__btn a:hover, a:active {
     color: var(--darkgray);
 }
-
-/*notice alarm*/
-.nav__alarm {
-    width: 20px;
-    height: 20px;
-    background: tomato;
-    color: white;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    border-radius: 50%;
-    text-align: center;
-}
-.nav__alarm span {
-    font-size: 10px;
-}

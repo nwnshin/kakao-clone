@@ -7,12 +7,14 @@
 @import "component/header.css";
 @import "component/nav.css";
 @import "component/user-component.css";
+@import "component/alarm-badge.css";
 
 /*elements*/
 @import "element/status-bar.css";
 @import "element/welcome-header.css";
 @import "element/login-form.css";
 @import "element/friends.css";
+
 
 body {
     width: 100%;
@@ -41,3 +43,6 @@ h6 {
     font-size: 15px;
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
