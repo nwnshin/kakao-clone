@@ -30,7 +30,9 @@
     font-weight: 300;
     margin: 150px 0px;
 }
-
+.open-chat {
+    overflow-y: auto;
+}
 .open-chat__header {
     margin-top: 10px;
     display: flex;
@@ -49,7 +51,9 @@
 
 .open-post {
     display: flex;
-    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
 }
 .open-post h5:first-child {
     font-weight: 400;
@@ -79,4 +83,24 @@
     height: 10px;
     background-color: var(--spacegray);
     margin-right: 5px;
+}
+.open-post__column:last-child {
+    position: relative;
+}
+.open-post__main-img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.heart-badge {
+    padding: 6px 6px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
 }
