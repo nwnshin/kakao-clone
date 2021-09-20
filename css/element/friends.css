@@ -15,3 +15,18 @@
 #animal-display-link span {
     margin: 0px 3px;
 }
+
+
+.friends-main {
+    padding: 15px var(--horizontal-space);
+}
+.friends-main__channel {
+    margin-top: 15px;
+    border-top: 1px solid var(--lightgray);
+}
+.channel-header {
+    margin: 10px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--spacegray);
+}

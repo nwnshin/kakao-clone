@@ -1,0 +1,20 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background: var(--lightgray);
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__btn a, a:link, a:visited {
+    color: var(--spacegray);
+}
+
+.nav__btn a:hover, a:active {
+    color: var(--darkgray);
+}

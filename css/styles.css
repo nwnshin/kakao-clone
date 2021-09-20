@@ -6,6 +6,7 @@
 @import "component/no-mobile.css";
 @import "component/header.css";
 @import "component/nav.css";
+@import "component/user-component.css";
 
 /*elements*/
 @import "element/status-bar.css";
@@ -22,6 +23,18 @@ body {
 h1 {
     font-weight: 700;
     font-size: 30px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+h5 {
+    font-weight: 200;
+    font-size: 12px;
 }
 h6 {
     font-weight: 200;
