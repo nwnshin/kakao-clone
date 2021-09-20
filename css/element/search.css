@@ -30,3 +30,53 @@
     font-weight: 300;
     margin: 150px 0px;
 }
+
+.open-chat__header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.open-chat__header span {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--spacegray);
+    display: flex;
+    align-items: center;
+}
+.open-chat__header span i {
+    margin-left: 5px;
+}
+
+.open-post {
+    display: flex;
+    margin-top: 10px;
+}
+.open-post h5:first-child {
+    font-weight: 400;
+}
+.open-post__hashtag {
+    margin: 5px 0px;
+    text-transform: uppercase;
+    opacity: 0.5;
+} 
+.open-post__member {
+    display: flex;
+    align-items: center;
+}
+.open-post__member img{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.open-post__member span {
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.divider {
+    width: 1px;
+    height: 10px;
+    background-color: var(--spacegray);
+    margin-right: 5px;
+}
