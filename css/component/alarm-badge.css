@@ -4,6 +4,9 @@
     top: -10px;
     right: -10px;
 }
+.alarm-badge__nav:hover {
+    animation: notifyAni 0.82s ease-in-out infinite;
+}
 .alarm-badge {
     width: 20px;
     height: 20px;

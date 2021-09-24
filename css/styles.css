@@ -8,6 +8,7 @@
 @import "component/nav.css";
 @import "component/user-component.css";
 @import "component/alarm-badge.css";
+@import "component/animation.css";
 
 /*elements*/
 @import "element/status-bar.css";
@@ -17,7 +18,8 @@
 @import "element/search.css";
 @import "element/other.css";
 @import "element/settings.css";
-
+@import "element/chatroom.css";
+@import "element/splash.css";
 
 body {
     width: 100%;
@@ -27,7 +29,7 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 h3 {
     font-weight: 500;
@@ -48,4 +50,8 @@ h6 {
 
 .main-screen {
     padding: 0px var(--horizontal-space);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
