@@ -1,0 +1,111 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-icons__icon i {
+    font-size: 38px;
+    cursor: pointer;
+}
+.find-icons__icon span {
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.recommended-friends {
+    border-top: var(--basic-border);
+    border-bottom: var(--basic-border);
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.recommended-friends span {
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    margin: 150px 0px;
+}
+.open-chat {
+    overflow-y: auto;
+}
+.open-chat__header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.open-chat__header span {
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--spacegray);
+    display: flex;
+    align-items: center;
+}
+.open-chat__header span i {
+    margin-left: 5px;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+.open-post h5:first-child {
+    font-weight: 400;
+}
+.open-post__hashtag {
+    margin: 5px 0px;
+    text-transform: uppercase;
+    opacity: 0.5;
+} 
+.open-post__member {
+    display: flex;
+    align-items: center;
+}
+.open-post__member img{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.open-post__member span {
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.divider {
+    width: 1px;
+    height: 10px;
+    background-color: var(--spacegray);
+    margin-right: 5px;
+}
+.open-post__column:last-child {
+    position: relative;
+}
+.open-post__main-img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.heart-badge {
+    padding: 6px 6px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+.heart-badge:hover i {
+    will-change: transform;
+    animation: heartBeat 1.3s linear infinite;
+}

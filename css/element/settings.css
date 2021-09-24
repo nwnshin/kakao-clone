@@ -1,0 +1,26 @@
+.settings__list {
+    border-top: 1px solid var(--lightgray);
+    padding-top: 18px;
+}
+.settings__column {
+    font-size: 18px;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__column-right > span {
+    padding-left: 18px;
+    width: 60%;
+}
+.settings__version {
+    font-size: 12px;
+    color: var(--spacegray);
+}
+.settings__version i {
+    margin-left: 5px;
+}
+.settings__version i:hover {
+    color: greenyellow;
+}

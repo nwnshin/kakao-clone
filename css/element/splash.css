@@ -1,0 +1,12 @@
+#splash {
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    animation: hideSplash 1.8s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}

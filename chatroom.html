@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Chat Room - Animal Talk</title>
+</head>
+<body id="chatscreen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>06:50</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-wifi"></i>
+            <span>LTE</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chat.html">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Doggo</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main class="main-screen chat">
+        <div class="chat__timestamp">
+            Sunday, October 1, 2021
+        </div>
+        <div class="message-row">
+            <img class="message__img" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg">
+            <div class="message__info">
+                <span class="message__author">Doggo</span>
+                <div class="message__text">
+                    <span class="message__bubble">
+                        Wof Woooof WoofWoof Woof....Bark!
+                    </span>
+                    <span class="message__time">20:17</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--my">
+            <div class="message__info">
+                <div class="message__text">
+                    <span class="message__bubble">
+                        Wof Woooof WoofWoof Woof....Bark!
+                    </span>
+                    <span class="message__time">20:19</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="type">
+        <div class="form__column">
+            <i class="fas fa-plus-circle"></i>
+        </div>
+        <div class="form__column">
+            <input type="text" placeholder="Your message">
+            <i class="far fa-smile-beam fa-lg"></i>
+            <button>
+                <i class="fas fa-chevron-circle-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your Screen is Too Big or Horizontal:(<br>Please use Smaller Screen or Portrait</span>
+    </div>
+</body>
+</html>

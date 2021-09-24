@@ -2,11 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 20px var(--horizontal-space);
 }
 
 .header__icons i {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
     cursor: pointer;
+    color: black;
+}
+
+header i {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.header__icons .fa-cog:hover {
+    animation: rotate360 2s linear infinite;
 }

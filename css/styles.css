@@ -6,12 +6,20 @@
 @import "component/no-mobile.css";
 @import "component/header.css";
 @import "component/nav.css";
+@import "component/user-component.css";
+@import "component/alarm-badge.css";
+@import "component/animation.css";
 
 /*elements*/
 @import "element/status-bar.css";
 @import "element/welcome-header.css";
 @import "element/login-form.css";
 @import "element/friends.css";
+@import "element/search.css";
+@import "element/other.css";
+@import "element/settings.css";
+@import "element/chatroom.css";
+@import "element/splash.css";
 
 body {
     width: 100%;
@@ -21,10 +29,29 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+h5 {
+    font-weight: 200;
+    font-size: 12px;
 }
 h6 {
     font-weight: 200;
     font-size: 15px;
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
